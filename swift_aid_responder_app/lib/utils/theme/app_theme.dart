@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:swift_aid_responder_app/utils/constant/colors.dart';
+import 'package:swift_aid_responder_app/utils/constants/colors.dart';
 import 'package:swift_aid_responder_app/utils/theme/custom_theme/bottom_sheet_theme.dart';
 import 'package:swift_aid_responder_app/utils/theme/custom_theme/elevatedbutton_theme.dart';
 import 'package:swift_aid_responder_app/utils/theme/custom_theme/outlined_button_theme.dart';

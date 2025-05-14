@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:swift_aid_responder_app/utils/constant/colors.dart';
-import 'package:swift_aid_responder_app/utils/constant/sizes.dart';
+import 'package:swift_aid_responder_app/utils/constants/colors.dart';
+import 'package:swift_aid_responder_app/utils/constants/sizes.dart';
 
 class SChipTheme {
   SChipTheme._();
@@ -9,6 +9,6 @@ class SChipTheme {
     backgroundColor: SAppColors.primaryAccent,
     brightness: Brightness.light,
     elevation: SSizes.buttonELevation,
-    
+
   );
 }
