@@ -6,14 +6,16 @@ class SAppColors {
   // ---THEME COLORS----  //
   static Color primaryColor = Color(0xFFF01A2E);
   static Color primaryAccent = Color(0xFFFF7F7F);
+  static Color light = Colors.white;
+  static Color dark = Colors.black;
 
   // ---BACKGROUND COLORS----  //
   static Color backgroundLight = Colors.white;
   static Color backgroundDark = Colors.black;
 
   // ---TEXT COLORS----  //
-  static Color lightText = lightGrey;
-  static Color darkText = Colors.black;
+  static Color lightText = light;
+  static Color darkText = dark;
 
   // --- Buttons --- //
   static Color buttonPrimary = primaryColor;
@@ -30,6 +32,6 @@ class SAppColors {
   static Color success = Color(0xFF00FF80);
 
   // -- Natural shades -- //
-  static Color lightGrey = Color(0xFFD3D3D3);
+  static Color lightGrey = Color.fromARGB(255, 244, 244, 244);
   static Color darkGrey = Color(0xFF474747);
 }

@@ -38,6 +38,8 @@ dependencies:
   # -- utilities -- #
   http: ^1.4.0
   flutter_native_splash: ^2.4.6
+  smooth_page_indicator: ^1.2.1
+  lottie: ^3.3.1
 
   # --- state management --- #
   get: ^4.7.2
@@ -56,6 +58,7 @@ flutter:
   assets:
     - 'assets/images/'
     - 'assets/logos/'
+    - 'assets/lotties/'
 
   # To add assets to your application, add an assets section, like this:
   # assets:

@@ -5,9 +5,6 @@ void main() {
   // Todo init local storage
   // Todo init authentication
 
-
-
-
   runApp(const App());
 }
 
