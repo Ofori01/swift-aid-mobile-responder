@@ -34,4 +34,5 @@ class SAppColors {
   // -- Natural shades -- //
   static Color lightGrey = Color.fromARGB(255, 244, 244, 244);
   static Color darkGrey = Color(0xFF474747);
+  static Color grey = Colors.grey;
 }

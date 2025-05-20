@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:get/instance_manager.dart';
 import 'package:get/state_manager.dart';
+import 'package:swift_aid_responder_app/features/authentication/views/login/login_screen.dart';
 
 class OnboardingPageController {
   // get single instance of class
@@ -19,6 +21,7 @@ class OnboardingPageController {
   void nextPage() {
     if (currentPage.value == 2) {
       // got to login screen
+      Get.offAll(LoginScreen());
     } else {
       int page = currentPage.value + 1;
       currentPage.value = page;

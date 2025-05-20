@@ -8,19 +8,33 @@ class SOutlinedButtonTheme {
   static final lightTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
       foregroundColor: SAppColors.backgroundDark,
-      side: BorderSide(color: SAppColors.buttonPrimary),
+      side: BorderSide(color: SAppColors.dark),
       padding: EdgeInsets.symmetric(vertical: SSizes.buttonPadding),
-      elevation: 0,
-      textStyle: TextStyle(color: SAppColors.darkText, fontSize: SSizes.fontMd, fontWeight: FontWeight.w600)
-    )
+      elevation: SSizes.buttonELevation,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(SSizes.buttonBorderRadius),
+      ),
+      textStyle: TextStyle(
+        color: SAppColors.darkText,
+        fontSize: SSizes.fontMd,
+        fontWeight: FontWeight.w600,
+      ),
+    ),
   );
   static final darkTheme = OutlinedButtonThemeData(
     style: OutlinedButton.styleFrom(
       foregroundColor: SAppColors.buttonForegroundLight,
-      side: BorderSide(color: SAppColors.buttonPrimary),
+      side: BorderSide(color: SAppColors.light),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(SSizes.buttonBorderRadius),
+      ),
       padding: EdgeInsets.symmetric(vertical: SSizes.buttonPadding),
-      elevation: 0,
-      textStyle: TextStyle(color: SAppColors.darkText, fontSize: SSizes.fontMd, fontWeight: FontWeight.w600)
-    )
+      elevation: SSizes.buttonELevation,
+      textStyle: TextStyle(
+        color: SAppColors.darkText,
+        fontSize: SSizes.fontMd,
+        fontWeight: FontWeight.w600,
+      ),
+    ),
   );
 }
