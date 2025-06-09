@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
-import 'package:get/utils.dart';
 import 'package:swift_aid_responder_app/features/onboarding/controllers/onboarding_page_controller.dart';
 import 'package:swift_aid_responder_app/features/onboarding/views/widgets/onboarding_next_button.dart';
 import 'package:swift_aid_responder_app/features/onboarding/views/widgets/onboarding_page.dart';

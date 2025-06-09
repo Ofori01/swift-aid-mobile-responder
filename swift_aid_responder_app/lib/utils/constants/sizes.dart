@@ -12,6 +12,7 @@ class SSizes {
   static const double buttonPadding = 18.0;
   static const double buttonELevation = 4;
   static const double buttonBorderRadius = 14.0;
+  static const double iconSize = 30;
 
   // spacing
   static const double defaultSpace = 32.0;

@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/instance_manager.dart';
-import 'package:get/state_manager.dart';
 import 'package:swift_aid_responder_app/features/authentication/views/login/login_screen.dart';
 
 class OnboardingPageController {

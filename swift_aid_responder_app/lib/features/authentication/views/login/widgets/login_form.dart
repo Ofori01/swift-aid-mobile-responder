@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:swift_aid_responder_app/features/home/views/home_screen.dart';
 import 'package:swift_aid_responder_app/utils/constants/sizes.dart';
 import 'package:swift_aid_responder_app/utils/constants/text_strings.dart';
 
@@ -61,7 +63,7 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: ()=> Get.offAll(()=> const HomeScreen()),
                 child: Text(STexts.login),
               ),
             ),

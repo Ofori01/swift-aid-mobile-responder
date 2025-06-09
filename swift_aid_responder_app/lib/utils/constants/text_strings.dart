@@ -26,4 +26,8 @@ class STexts {
   static String forgotPassword = 'Forgot Password';
   static String login = 'Login';
   static String createAccount = 'Create Account';
+
+  //  home screen
+
+  static String goOnline = 'Go Online';
 }
