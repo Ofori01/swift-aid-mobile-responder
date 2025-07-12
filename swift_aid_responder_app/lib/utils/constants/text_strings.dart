@@ -30,4 +30,8 @@ class STexts {
   //  home screen
 
   static String goOnline = 'Go Online';
+  static String goOffline = 'Go Offline';
+  static String available = 'available';
+  static String unavailable = 'unavailable';
+  
 }

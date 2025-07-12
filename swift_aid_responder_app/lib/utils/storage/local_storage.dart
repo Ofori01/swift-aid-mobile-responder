@@ -17,7 +17,7 @@ class SLocalStorage {
   }
 
   // generic read
-  Future get<T>(String key, T data) async {
+  Future get<T>(String key) async {
     return await _storage.read(key);
   }
 

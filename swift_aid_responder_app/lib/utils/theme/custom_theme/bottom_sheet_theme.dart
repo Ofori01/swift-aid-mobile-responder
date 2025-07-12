@@ -7,7 +7,7 @@ class SBottomSheetTheme {
 
   static final lightTheme = BottomSheetThemeData(
     backgroundColor: SAppColors.lightGrey,
-    showDragHandle: false,
+    showDragHandle: true,
     modalBackgroundColor: SAppColors.lightGrey,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(SSizes.buttonBorderRadius)),
     constraints: BoxConstraints(maxWidth:double.infinity),
@@ -16,7 +16,7 @@ class SBottomSheetTheme {
   );
   static final darkTheme = BottomSheetThemeData(
     backgroundColor: SAppColors.backgroundDark,
-    showDragHandle: false,
+    showDragHandle: true,
     modalBackgroundColor: SAppColors.backgroundDark,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(SSizes.buttonBorderRadius)),
     constraints: BoxConstraints(maxWidth:double.infinity),

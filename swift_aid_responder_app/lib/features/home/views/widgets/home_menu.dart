@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:swift_aid_responder_app/utils/constants/sizes.dart';
 
 class HomeMenu extends StatelessWidget {
-  const HomeMenu({super.key});
-
+  const HomeMenu({super.key, required this.onTap});
+  
+  final VoidCallback onTap;
   @override
   Widget build(BuildContext context) {
     return Positioned(
@@ -13,7 +14,7 @@ class HomeMenu extends StatelessWidget {
 
       child: IconButton(
         iconSize: SSizes.iconSize,
-        onPressed: () {},
+        onPressed: onTap,
         icon: Icon(CupertinoIcons.bars),
       ),
     );
